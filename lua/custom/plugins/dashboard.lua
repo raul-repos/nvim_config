@@ -20,11 +20,11 @@ local logo = [[
 
 return {
   {
-    "nvimdev/dashboard-nvim",
+    'nvimdev/dashboard-nvim',
     opts = {
-      theme = "doom",
+      theme = 'doom',
       config = {
-        header = vim.split(logo, "\n"),
+        header = vim.split(logo, '\n'),
       },
     },
   },
